@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet" type="text/css" />  
+    <title>Product List</title>
+  </head>
+  <body>
+    <h1>Product List</h1>
+
+    <button onclick="location.href='/add-product'">ADD</button>
+
+    <button onclick="massDelete()">MASS DELETE</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>SKU</th>
+          <th>Name</th>
+          <th>Price ($)</th>
+          <th>Attribute</th>
+          <th>Value</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Product data will be loaded dynamically here -->
+      </tbody>
+    </table>
+  </body>
+  </html>
